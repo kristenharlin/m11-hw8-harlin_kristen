@@ -22,6 +22,5 @@ class IceCream extends Desserts {
   }
 }
 
-// test work code
-//let myDessert = new IceCream ('icy', 200, 'vanilla', 3);
-//
+let vanillaIceCream = new IceCream ('Ice Cream', 340, 'Vanilla', 3);
+console.log(vanillaIceCream);
