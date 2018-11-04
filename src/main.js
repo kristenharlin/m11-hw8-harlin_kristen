@@ -1,5 +1,5 @@
 // Homework 11
-// step 4e
+// step 4
 
 class Desserts {
   constructor(type, calories) {
@@ -25,3 +25,5 @@ class IceCream extends Desserts {
 let vanillaIceCream = new IceCream ('Ice Cream', 340, 'Vanilla', 3);
 console.log(vanillaIceCream);
 vanillaIceCream.includeSpoon();
+
+console.log(`I like ${vanillaIceCream.flavor}`);
